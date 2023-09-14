@@ -11,7 +11,6 @@ let headsArray = [
 ];
 
 function populatelist(){
-    headsArray = shuffle(headsArray);
     let heads = document.getElementById("heads");
     heads.innerHTML = "";
     for (let i = 0; i < headsArray.length; i++){
