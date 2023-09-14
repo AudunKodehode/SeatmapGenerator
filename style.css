@@ -136,3 +136,7 @@ span#error {
   height: 50px;
   border-radius: 20px;
 }
+li button {
+  background-color: red;
+  border-radius: 20px;
+}
