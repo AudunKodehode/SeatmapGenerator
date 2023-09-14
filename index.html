@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Seatmapgenerator</title>
+  </head>
+  <body>
+    <div class="seatmapcontainer">
+
+<div class="seatmap">
+<div id="seat1" class="seatL"></div>
+<div class="seatmidfront"></div>
+<div id="seat2" class="seatR"></div>
+<div id="seat3" class="seatL"></div>
+<div class="seatmidProjektor"><img src="https://images.squarespace-cdn.com/content/v1/548b98ebe4b0b7d3088df706/1472000839247-7TGSURQW2FQY5A4B65UI/epson-ex5220-wireless-xga-3lcd-projector-top_zf1j.jpg?format=1500w" alt=""></div>
+<div id="seat4" class="seatR"></div>
+<div id="seat5" class="seatL"></div>
+<div class="seatmid"></div>
+<div id="seat6" class="seatR"></div>
+<div id="seat7" class="seatL"></div>
+<div class="seatmidfront"></div>
+<div id="seat8" class="seatR"></div>
+<div id="seat9" class="endseat"></div>
+<div id="seat10" class="endseat"></div>
+</div>
+
+</div>
+
+
+    <div class="inputDataContainer">
+      <h1><span id="error"></span></h1>
+      <div class="settingscontainer">
+        <div id="heads">
+        </div>
+
+        <div class="addContainer">
+        <input id ="nameInput" placeholder="Navn" type="text">
+        <button id="addButton" onclick="addHead()">Legg til</button>
+      </div>
+<button id="placeHeadsButton" onclick="placeHeads()">Plasser</button>
+      </div>
+
+    </div>
+  </div>
+    <script src="javascript.js"></script>
+  </body>
+  
+</html>

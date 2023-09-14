@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+}
+
+.inputDataContainer {
+  background-color: rgb(189, 189, 189);
+  height: 100vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.settingscontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  height: 75%;
+  background-color: gray;
+}
+li {
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: 800;
+  list-style: none;
+}
+#nameInput {
+  font-size: 25px;
+  width: 75%;
+  position: relative;
+}
+#addButton {
+  width: 120px;
+  height: 50px;
+  color: white;
+  background-color: rgb(63, 63, 63);
+  border-radius: 10px;
+}
+.addContainer {
+  display: flex;
+}
+
+.seatmapcontainer {
+  background-color: gray;
+  height: 100vh;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seatmap {
+  width: 225px;
+  height: 700px;
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0px;
+}
+.seat {
+  width: 75px;
+  height: 150px;
+  background-color: brown;
+  border: solid 3px black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seatL {
+  width: 75px;
+  height: 150px;
+  background-color: rgb(255, 0, 0);
+  border: solid 3px black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seatR {
+  width: 75px;
+  height: 150px;
+  background-color: rgb(255, 0, 0);
+  border: solid 3px black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seatmid {
+  width: 75px;
+  height: 150px;
+  background-color: rgba(165, 42, 42, 0.329);
+  border: solid 3px black;
+}
+.seatmidfront {
+  width: 75px;
+  height: 150px;
+}
+
+.seatmidProjektor {
+  width: 75px;
+  height: 150px;
+  background-color: rgba(165, 42, 42, 0.329);
+  border: solid 3px black;
+  display: flex;
+  align-items: center;
+}
+.seatmidProjektor img {
+  width: 100%;
+}
+.endseat {
+  width: 112.5px;
+  height: 80px;
+  background-color: rgb(255, 0, 0);
+  border: solid 3px black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span#error {
+  color: red;
+  font-size: 40px;
+}
+#placeHeadsButton {
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+}
