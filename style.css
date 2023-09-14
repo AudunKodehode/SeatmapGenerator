@@ -84,6 +84,8 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-image: url(https://c1.wallpaperflare.com/preview/742/346/328/pattern-wood-retro-desktop.jpg);
 }
 .seatR {
   width: 75px;
@@ -94,12 +96,16 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-image: url(https://c1.wallpaperflare.com/preview/742/346/328/pattern-wood-retro-desktop.jpg);
 }
 .seatmid {
   width: 75px;
   height: 150px;
   background-color: rgba(165, 42, 42, 0.329);
   border: solid 3px black;
+
+  background-image: url(https://c1.wallpaperflare.com/preview/742/346/328/pattern-wood-retro-desktop.jpg);
 }
 .seatmidfront {
   width: 75px;
@@ -113,6 +119,8 @@ li {
   border: solid 3px black;
   display: flex;
   align-items: center;
+
+  background-image: url(https://c1.wallpaperflare.com/preview/742/346/328/pattern-wood-retro-desktop.jpg);
 }
 .seatmidProjektor img {
   width: 100%;
@@ -126,6 +134,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(https://c1.wallpaperflare.com/preview/742/346/328/pattern-wood-retro-desktop.jpg);
 }
 span#error {
   color: red;
@@ -139,4 +148,10 @@ span#error {
 li button {
   background-color: red;
   border-radius: 20px;
+}
+p {
+  font-size: 17px;
+  font-weight: 800;
+  background-color: white;
+  color: black;
 }

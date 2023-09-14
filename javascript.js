@@ -50,8 +50,8 @@ function placeHeads(){
 
 for (i = 1; i < 11; i++){
     let seat = document.getElementById(`seat${i}`);
-    seat.textContent = headsArray[i];
-    document.getElementById("seat10").textContent = headsArray[0]
+    seat.innerHTML = `<p> ${headsArray[i]} </p>`;
+    document.getElementById("seat10").innerHTML = `<p> ${headsArray[0]} </p>`;
 }
 
 
