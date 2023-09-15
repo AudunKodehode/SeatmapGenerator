@@ -155,3 +155,32 @@ p {
   background-color: white;
   color: black;
 }
+
+div#joakim{
+  height: 180px;
+  position: absolute;
+  left: 2200px;
+}
+div#joakim img{
+  height:100%;
+}
+div#lina{
+  height: 180px;
+  position: absolute;
+  left:900px;
+  top:-200px;
+  top:0px;
+  opacity: 0;
+  /* top:950px; */
+}
+div#seat2{
+  z-index: 5000;
+}
+#speech{
+  position: absolute;
+  background-color: white;
+  top:-20%;
+}
+div#lina img{
+  height:100%;
+}
