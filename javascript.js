@@ -34,7 +34,7 @@ function addHead() {
     if (headsArray.length == 10) {
       headsArray.pop();
       document.getElementById("error").textContent =
-        "For mange hoder, for lite seter";
+        "No more seats available";
     }
   }
 }
