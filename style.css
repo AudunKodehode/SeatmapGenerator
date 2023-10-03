@@ -5,6 +5,7 @@
 body {
   height: 100vh;
   display: flex;
+  max-height: 100vh;
 }
 
 .inputDataContainer {
